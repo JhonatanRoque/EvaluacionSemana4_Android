@@ -1,0 +1,31 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fjar.evaluacinsemana4.MainActivity">
+    <item
+        android:id="@+id/Salir"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Salir"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/Volver"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Volver"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/CaclularHipotenusa"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Ejericio 1"
+        />
+    <item
+        android:id="@+id/CalcVolumen"
+        android:enabled="true"
+        android:orderInCategory="100"
+        android:title="Ejericio 2"
+        />
+
+</menu>

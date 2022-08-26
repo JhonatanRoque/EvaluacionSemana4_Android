@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EjercicioVolumen"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular el volumen de una figura geométrica"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:src="@drawable/volumenfiguras"
+        />
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint=""
+        android:enabled="false"
+        />
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint=""
+        android:enabled="false"
+        />
+
+    <Button
+        android:id="@+id/btnVolumen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Volumen"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
